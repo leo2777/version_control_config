@@ -1,10 +1,10 @@
 # version_control_config
 
-基于 (LeoFastDevMvpKotlin)[https://github.com/leo2777/LeoFastDevMvpKotlin] 快速开发框架的 config.gradle 依赖管理 demo
+基于 [LeoFastDevMvpKotlin](https://github.com/leo2777/LeoFastDevMvpKotlin) 快速开发框架的 config.gradle 依赖管理 demo
 
 ## 统一依赖管理
 
-框架采用 config.gradle 进行依赖管理，详细请看此篇文章 [《ndroid - 统一依赖管理(config.gradle)》](https://juejin.cn/post/7224007334513770551) 这里仅仅说明操作步骤：
+框架采用 config.gradle 进行依赖管理，详细请看此篇文章 [《android - 统一依赖管理(config.gradle)》](https://juejin.cn/post/7224007334513770551) 这里仅仅说明操作步骤：
 
 > - 新建或者下载项目的 「config.gradle」 文件并编写引用
 > - 根目录的 「build.gradle」文件引入 「config.gradle」也就是 **apply from "config.gradle"**
@@ -137,5 +137,5 @@ dependencies {
 
 ```
 
-以上就是 简单使用，如果想看详细使用，请看这个文章：[《ndroid - 统一依赖管理(config.gradle)》](https://juejin.cn/post/7224007334513770551)
+以上就是 简单使用，如果想看详细使用，请看这个文章：[《android - 统一依赖管理(config.gradle)》](https://juejin.cn/post/7224007334513770551)
 此外还有其他 依赖管理的文章，敬请期待
